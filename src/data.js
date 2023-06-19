@@ -14,7 +14,7 @@ import JoinImg from '../src/assets/img/join/woman.png';
 // icons
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
 import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
-import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
+// import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
 import ContactUsIcn from '../src/assets/img/contactus/icons/telephone.svg';
 
 export const header = {
@@ -52,6 +52,30 @@ export const about = {
   link: 'Join Now',
 };
 
+// export const testimonials = {
+//   icon: CommunityIcn,
+//   title: 'Testimonials',
+//   testimonials: [
+//     {
+//       image: CommunityImg1,
+//       name: 'Mohammed K.',
+//       message:
+//         '“Gym is Well maintained. Coach is very kind, a professional body builder and ofcourse a dietitian too. He makes everyone to focus on each muscle of their body throughout a week. A Good inspiration for our younger generation.”',
+//     },
+//     {
+//       image: CommunityImg3,
+//       name: 'hameed M',
+//       message:
+//         '“Awesome gym by Esa Misri sahab equipment is also very good.”',
+//     },
+//     {
+//       image: CommunityImg1,
+//       name: 'Salman A.',
+//       message:
+//         '“Have been a member since a long time , one of the best gym in old city and won’t Burn a hole in your pocket very affordable . Awesome equipment can go for it undoubtedly, strongly recommend.”',
+//     },
+//   ],
+// };
 export const workouts = {
   icon: CalendarIcn,
   title: 'Gym Gallery',
@@ -79,32 +103,6 @@ export const workouts = {
   ],
 };
 
-
-
-export const community = {
-  icon: CommunityIcn,
-  title: 'Testimonials',
-  testimonials: [
-    {
-      image: CommunityImg1,
-      name: 'Mohammed K.',
-      message:
-        '“Gym is Well maintained. Coach is very kind, a professional body builder and ofcourse a dietitian too. He makes everyone to focus on each muscle of their body throughout a week. A Good inspiration for our younger generation.”',
-    },
-    {
-      image: CommunityImg3,
-      name: 'hameed M',
-      message:
-        '“Awesome gym by Esa Misri sahab equipment is also very good.”',
-    },
-    {
-      image: CommunityImg1,
-      name: 'Salman A.',
-      message:
-        '“Have been a member since a long time , one of the best gym in old city and won’t Burn a hole in your pocket very affordable . Awesome equipment can go for it undoubtedly, strongly recommend.”',
-    },
-  ],
-};
 export const contactus = {
     icon: ContactUsIcn,
     title1: 'Contact Us',

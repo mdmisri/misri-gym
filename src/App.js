@@ -10,9 +10,10 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import About from './components/About';
 import Workouts from './components/GymGallery';
-import Community from './components/Testimonials';
 import Contactus from './components/Contactus';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
+import { Testimonial } from './components/TestimonialData';
 
 const App = () => {
   // aos initialization
@@ -25,8 +26,8 @@ const App = () => {
       <Header />
       <Banner />
       <About />
+      <Testimonials/> 
       <Workouts />
-      <Community />
       <Contactus />
       <Footer />
       {/* <div className='h-[4000px]'></div> */}
