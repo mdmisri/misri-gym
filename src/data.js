@@ -33,9 +33,9 @@ export const navmobile = [
     sectionId: 'home' // Add the section ID here
   },
   {
-    name: 'Gallery',
-    href: '#gallery',
-    sectionId: 'gallery'
+    name: 'GymGallery',
+    href: '#gymgallery',
+    sectionId: 'gymgallery'
   },
   {
     name: 'Testimonials',
