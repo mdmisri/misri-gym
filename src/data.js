@@ -39,7 +39,7 @@ export const navmobile = [
   },
   {
     name: 'Testimonials',
-    href: '#services',
+    href: '#testimonials',
     sectionId: 'testimonials'
   },
   {
