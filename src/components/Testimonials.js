@@ -1,25 +1,25 @@
 import React from 'react';
+import testimonialData from './TestimonialData'; // Import the testimonialsData from TestimonialData file
 
-import testimonialData from './TestimonialData';
-import { Testimonial } from './TestimonialData';
+
 const Testimonials = () => {
-  const { icon, title, testimonials } = testimonialsData;  //var1
+  const {  title, testimonials } = testimonialData; // Use testimonialData instead of undefined testimonialsData - ye tha problem wo? nope, brackets [] use karna tha instead of {😭😅}
   
+  // Rest of the code...now u continue ok sunno title daaldinge  website pe kidhar woich testimonial ki jagah pe ic ik baar website khol ke batao udhr hmm ok lets try
   return (
     <section id='testimonials' className='bg-pink-100 section'>
       {/* section title */}
       <div className='section-title-group justify-start' 
       data-aos='fade-up' 
-      data-aos-delay='100'
+      data-aos-delay='100' //css style karna aata hao theek ye karletao href daalding mobile nav mei ye last hai
       >
-        <img src={icon} alt=''/>
-        <h2 className='h2 section-title'>
-          {title} <span className='text-primary-200'>.
-            </span>
+        {/* <img src={icon} alt=''/> */}
+        <h2 className='h2 section-title' >Testinomials
+          
           </h2>
       </div>
       <div className="flex items-center justify-center py-8">
-        {testimonialData.map((testimonial) => (  //ye code 2 2 bar kyun likhna padhra?? ye waala?yep icon and title data mei se lene
+        {testimonialData.map((testimonial) => (  
           <div
             key={testimonial.id}
             className="w-1/3 p-6 mx-4 bg-white rounded-lg shadow-lg"

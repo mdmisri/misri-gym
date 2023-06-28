@@ -1,11 +1,11 @@
 import React from 'react';
 
-//import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
+// import CommunityIcn from '../src/assets/img/community/icons';
 import I1 from "./photos/img1.png"
-export const testimonialData = {
-  icon: CommunityIcn,
-  title: 'Testimonials', ///ye kya hai ye alag hai t ka data yaha se export hora to tes.js
-  testimonials: [
+export const testimonialData = [
+  // icon: CommunityIcn,
+
+
   {
     id: 1,
     name: 'John Doe',
@@ -24,8 +24,8 @@ export const testimonialData = {
     image: {I1},
     quote: 'Proin malesuada enim nec augue aliquam varius. Sed aliquet justo quis enim placerat scelerisque. Sed malesuada ipsum a venenatis feugiat.',
   },
-  ],
-};// i am writing some points as comments for claiity ok
+  
+];// i am writing some points as comments for claiity ok
 
 export const Testimonial = () => {    //function which maps the images from the data--
   //func to be exported

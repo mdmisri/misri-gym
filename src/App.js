@@ -13,7 +13,7 @@ import Workouts from './components/GymGallery';
 import Contactus from './components/Contactus';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
-import { Testimonial } from './components/TestimonialData';
+// import { Testimonial } from './components/TestimonialData';
 
 const App = () => {
   // aos initialization

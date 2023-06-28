@@ -25,14 +25,45 @@ export const header = {
   btnAbout : 'About',
   btnContactUs : 'Contactus',
 };
+// data.js
+export const navmobile = [
+  {
+    name: 'Home',
+    href: '#home', // ID of the corresponding section on the page
+    sectionId: 'home' // Add the section ID here
+  },
+  {
+    name: 'Gallery',
+    href: '#gallery',
+    sectionId: 'gallery'
+  },
+  {
+    name: 'Testimonials',
+    href: '#services',
+    sectionId: 'testimonials'
+  },
+  {
+    name: 'about',
+    href: '#about',
+    sectionId: 'about'
+  },
+  {
+    name: 'contactus',
+    href: '#contactus',
+    sectionId: 'contactus'
+  },
+  // Add more navigation items with their respective section IDs wait
+];
+
+
 
 export const nav = [
-  { name: 'Home', href: '/' },
-  { name: 'Gallery', href: '/' },
-  { name: 'Testimonials', href: '/' },
-  { name: 'About', href: '/' },
-  { name: 'contactus', href: '' },
-];
+  { name: 'Home', href: '/' ,sectionId: 'home'},
+  { name: 'Gallery', href: '/',sectionId: 'gallery' },
+  { name: 'Testimonials', href: '/',sectionId: 'testimonials' },
+  { name: 'About', href: '/',sectionId: 'about' },
+  { name: 'contactus', href: '',sectionId: 'contactus' },
+];//ig this , yep pehle idhar check kara, but this one is for destop view. lets
 
 export const banner = {
   titlePart1: 'Get the best part of your day',
@@ -52,30 +83,30 @@ export const about = {
   link: 'Join Now',
 };
 
-// export const testimonials = {
-//   icon: CommunityIcn,
-//   title: 'Testimonials',
-//   testimonials: [
-//     {
-//       image: CommunityImg1,
-//       name: 'Mohammed K.',
-//       message:
-//         '“Gym is Well maintained. Coach is very kind, a professional body builder and ofcourse a dietitian too. He makes everyone to focus on each muscle of their body throughout a week. A Good inspiration for our younger generation.”',
-//     },
-//     {
-//       image: CommunityImg3,
-//       name: 'hameed M',
-//       message:
-//         '“Awesome gym by Esa Misri sahab equipment is also very good.”',
-//     },
-//     {
-//       image: CommunityImg1,
-//       name: 'Salman A.',
-//       message:
-//         '“Have been a member since a long time , one of the best gym in old city and won’t Burn a hole in your pocket very affordable . Awesome equipment can go for it undoubtedly, strongly recommend.”',
-//     },
-//   ],
-// };
+export const testimonials = {
+  // icon: CommunityIcn,
+  title: 'Testimonials',
+  testimonials: [
+    {
+      image: CommunityImg1,
+      name: 'Mohammed K.',
+      message:
+        '“Gym is Well maintained. Coach is very kind, a professional body builder and ofcourse a dietitian too. He makes everyone to focus on each muscle of their body throughout a week. A Good inspiration for our younger generation.”',
+    },
+    {
+      image: CommunityImg3,
+      name: 'hameed M',
+      message:
+        '“Awesome gym by Esa Misri sahab equipment is also very good.”',
+    },
+    {
+      image: CommunityImg1,
+      name: 'Salman A.',
+      message:
+        '“Have been a member since a long time , one of the best gym in old city and won’t Burn a hole in your pocket very affordable . Awesome equipment can go for it undoubtedly, strongly recommend.”',
+    },
+  ],
+};
 export const workouts = {
   icon: CalendarIcn,
   title: 'Gym Gallery',
