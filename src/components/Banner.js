@@ -8,7 +8,7 @@ const Banner = () => {
   const { titlePart1, titlePart2, subtitle, textBtn } = 
   banner;
   return (
-     <section id='banner' className='bg-neutral-500 h-[790px]'> 
+     <section id='home' className='bg-neutral-500 h-[790px]'> 
   <div className='container mx-auto h-full'>
   <div className='flex items-center h-full relative -space-x-48 lg-space-x-24'>
     {/* text */}

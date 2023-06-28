@@ -29,12 +29,12 @@ export const header = {
 export const navmobile = [
   {
     name: 'Home',
-    href: '#banner', // ID of the corresponding section on the page
+    href: '#home', // ID of the corresponding section on the page
     sectionId: 'home' // Add the section ID here
   },
   {
     name: 'Gallery',
-    href: '#gymgallery',
+    href: '#gallery',
     sectionId: 'gallery'
   },
   {

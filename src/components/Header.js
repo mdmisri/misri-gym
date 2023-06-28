@@ -42,7 +42,7 @@ const Header = () => {
       {/* btns - initially hidden - show on desktop */}
       <div className="hidden lg:flex space-x-20">
       <button className='btn btn-sm text-white hover:text-primary-200 transition'>
-        <Link to="banner" spy={true} smooth={true} duration={500} onClick={closeMenu}>
+        <Link to="home" spy={true} smooth={true} duration={500} onClick={closeMenu}>
           {btnHome}
         </Link>
         </button>
