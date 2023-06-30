@@ -25,8 +25,10 @@ const Workouts = () => {
       </div>
 
       {/* slider */}
-      <div data-aos="fade-up" data-aos-delay="300">
-        <WorkoutSlider />
+      <div className="flex flex-wrap">
+        <div className="w-full h-auto">
+          <WorkoutSlider />
+        </div>
       </div>
     </section>
   );
