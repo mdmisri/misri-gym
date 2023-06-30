@@ -34,7 +34,7 @@ export const navmobile = [
   },
   {
     name: 'Gallery',
-    href: '#gallery',
+    href: '#gymgallery',
     sectionId: 'gallery'
   },
   {
