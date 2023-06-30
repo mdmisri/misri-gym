@@ -35,7 +35,7 @@ export const navmobile = [
   {
     name: 'Gallery',
     href: '#gymgallery',
-    sectionId: 'gallery'
+    sectionId: 'gymgallery'
   },
   {
     name: 'Testimonials',
@@ -59,7 +59,7 @@ export const navmobile = [
 
 export const nav = [
   { name: 'Home', href: '/' ,sectionId: 'home'},
-  { name: 'Gallery', href: '/',sectionId: 'gallery' },
+  { name: 'Gallery', href: '/',sectionId: 'gymgallery' },
   { name: 'Testimonials', href: '/',sectionId: 'testimonials' },
   { name: 'About', href: '/',sectionId: 'about' },
   { name: 'contactus', href: '',sectionId: 'contactus' },

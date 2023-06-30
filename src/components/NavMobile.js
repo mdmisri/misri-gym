@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';//oh already hai
+import { Link } from 'react-scroll';
 import { nav } from '../data';
 import { navmobile } from '../data';
 
@@ -7,9 +7,9 @@ import { navmobile } from '../data';
 
 const NavMobile = ({ navMobile }) => {
   const closeNav = () => {
-    // Add code here to close the mobile navigation menu if needed
+
   };
-//reeee ye click ku nahi horaaa woich toh
+
   return (
     <nav
       className={`${
@@ -37,5 +37,4 @@ const NavMobile = ({ navMobile }) => {
 };
 
 export default NavMobile;
-//yo you noticed the scroll bar?? wherer?
-//do one thing, send me the link to view to website on my mobile while i figure this error out for it i have to update the code on github
+
