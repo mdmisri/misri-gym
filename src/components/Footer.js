@@ -8,8 +8,7 @@ const Footer = () => {
   return ( 
   <footer className='bg-neutral-500 h-[100px] md:h-[120px]px-[10px]'>
     <div
-     className='container mx-auto h-full flex justify-center items-center md:items-end md:pb-[30px]
-    ' 
+     className='container mx-auto h-full flex justify-center items-center md:items-end md:pb-[30px]' 
     // data-aos='fade-up' 
     // data-aos-delay='200'
     >
