@@ -1,28 +1,28 @@
 import React from 'react';
 
 // import CommunityIcn from '../src/assets/img/community/icons';
-import I1 from "./photos/img1.png"
+// import I1 from "./photos/img1.png"
 export const testimonialData = [
   // icon: CommunityIcn,
 
 
   {
     id: 1,
-    name: 'John Doe',
-    image: {I1},
-    quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper augue at neque convallis, eget vulputate nisi volutpat. Mauris at velit et magna aliquet pharetra.',
+    name: 'Mohammed K.',
+    // image: {I1},
+    quote: '“Gym is Well maintained. Coach is very kind, a professional body builder and ofcourse a dietitian too. He makes everyone to focus on each muscle of their body throughout a week. A Good inspiration for our younger generation.”',
   },
   {
     id: 2,
-    name: 'Jane Smith',
-    image: {I1},
-    quote: 'Nllam ultricies sapien a dolor consequat, et vestibulum nunc tristique. Ut varius condimentum ex, at semper risus fringilla non. Sed vulputate viverra risus ut placerat.',
+    name: 'hameed M',
+    // image: {I1},
+    quote: '“Awesome gym by Esa Misri sahab equipment is also very good.”',
   },
   {
     id: 3,
-    name: 'David Johnson',
-    image: {I1},
-    quote: 'Proin malesuada enim nec augue aliquam varius. Sed aliquet justo quis enim placerat scelerisque. Sed malesuada ipsum a venenatis feugiat.',
+    name: 'Salman A.',
+    // image: {I1},
+    quote: '“Have been a member since a long time , one of the best gym in old city and won’t Burn a hole in your pocket very affordable . Awesome equipment can go for it undoubtedly, strongly recommend.”',
   },
   
 ];// i am writing some points as comments for claiity ok
