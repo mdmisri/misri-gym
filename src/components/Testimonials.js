@@ -3,7 +3,7 @@ import testimonialData from './TestimonialData'; // Import the testimonialsData 
 
 
 const Testimonials = () => {
-  const {  title, testimonials } = testimonialData; // Use testimonialData instead of undefined testimonialsData - ye tha problem wo? nope, brackets [] use karna tha instead of {😭😅}
+  const {  title, testimonials } = testimonialData; 
   
  
   return (

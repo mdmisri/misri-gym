@@ -80,5 +80,4 @@ const Header = () => {
     </header>
   );
 };
-//nav bar menu for mobile ka code kidhar? pani puri lyt liyo code batao bhai :3🤣🤣
 export default Header;

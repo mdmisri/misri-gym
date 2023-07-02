@@ -52,7 +52,7 @@ export const navmobile = [
     href: '#contactus',
     sectionId: 'contactus'
   },
-  // Add more navigation items with their respective section IDs wait
+ 
 ];
 
 
