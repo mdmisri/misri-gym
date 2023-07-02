@@ -33,9 +33,9 @@ export const navmobile = [
     sectionId: 'home' // Add the section ID here
   },
   {
-    name: 'Gallery',
-    href: '#gymgallery',
-    sectionId: 'gymgallery'
+    name: 'About',
+    href: '#about',
+    sectionId: 'about'
   },
   {
     name: 'Testimonials',
@@ -43,12 +43,12 @@ export const navmobile = [
     sectionId: 'testimonials'
   },
   {
-    name: 'about',
-    href: '#about',
-    sectionId: 'about'
+    name: 'Gym Gallery',
+    href: '#gymgallery',
+    sectionId: 'gymgallery'
   },
   {
-    name: 'contactus',
+    name: 'Contactus',
     href: '#contactus',
     sectionId: 'contactus'
   },
@@ -59,11 +59,11 @@ export const navmobile = [
 
 export const nav = [
   { name: 'Home', href: '/' ,sectionId: 'home'},
-  { name: 'gallery', href: '/',sectionId: 'gymgallery' },
+  { name: 'gymgallery', href: '/',sectionId: 'gymgallery' },
   { name: 'Testimonials', href: '/',sectionId: 'testimonials' },
   { name: 'About', href: '/',sectionId: 'about' },
   { name: 'contactus', href: '',sectionId: 'contactus' },
-];//ig this , yep pehle idhar check kara, but this one is for destop view. lets
+];
 
 export const banner = {
   titlePart1: 'Get the best part of your day',
