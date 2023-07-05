@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/misri-gym/static/css/main.cbe9bd5f.css",
-    "main.js": "/misri-gym/static/js/main.f6aee559.js",
+    "main.css": "/misri-gym/static/css/main.a85af33c.css",
+    "main.js": "/misri-gym/static/js/main.6384bec5.js",
     "static/media/bg.png": "/misri-gym/static/media/bg.40c06a201c9e7b6879ed.png",
     "static/media/m5g.jpg_large": "/misri-gym/static/media/m5g.7743c870d9e29437ba5e.jpg_large",
     "static/media/woman.png": "/misri-gym/static/media/woman.afe487a6399eecfa1aa7.png",
@@ -20,11 +20,11 @@
     "static/media/users-icn.svg": "/misri-gym/static/media/users-icn.1c1181836b52f949c1de5db01fcd212e.svg",
     "static/media/chevron-right.svg": "/misri-gym/static/media/chevron-right.54d3bc1c0ea6ec072a21.svg",
     "static/media/chevron-left.svg": "/misri-gym/static/media/chevron-left.7d0e8c34fcab2fb5f0bc.svg",
-    "main.cbe9bd5f.css.map": "/misri-gym/static/css/main.cbe9bd5f.css.map",
-    "main.f6aee559.js.map": "/misri-gym/static/js/main.f6aee559.js.map"
+    "main.a85af33c.css.map": "/misri-gym/static/css/main.a85af33c.css.map",
+    "main.6384bec5.js.map": "/misri-gym/static/js/main.6384bec5.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbe9bd5f.css",
-    "static/js/main.f6aee559.js"
+    "static/css/main.a85af33c.css",
+    "static/js/main.6384bec5.js"
   ]
 }
